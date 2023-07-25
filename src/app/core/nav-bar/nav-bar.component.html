@@ -1,0 +1,5 @@
+<a [routerLink]="['home']">Home</a><br />
+<a [routerLink]="['about']">About</a><br />
+<a *ngFor="let cuisine of cuisines" [routerLink]="['restaurants', cuisine]">
+  {{ cuisine }}<br
+/></a>
